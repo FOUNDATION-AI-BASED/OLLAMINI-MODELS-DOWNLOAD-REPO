@@ -1,0 +1,71 @@
+{
+  "models": [
+    {
+      "id": "llama-2-7b-chat-safetensors",
+      "name": "Llama 2 7B Chat (Safetensors)",
+      "size": "13.5 GB",
+      "download_url": "https://github.com/your-username/llm-models/raw/main/llama-2-7b-chat-safetensors/",
+      "format": "safetensors",
+      "download_type": "folder",
+      "required_files": [
+        "model.safetensors",
+        "config.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ]
+    },
+    {
+      "id": "mistral-7b-instruct-safetensors",
+      "name": "Mistral 7B Instruct (Safetensors)",
+      "size": "13.5 GB",
+      "download_url": "https://github.com/your-username/llm-models/raw/main/mistral-7b-instruct-safetensors/",
+      "format": "safetensors",
+      "download_type": "folder",
+      "required_files": [
+        "model.safetensors",
+        "config.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ]
+    },
+    {
+      "id": "llama-2-7b-chat-tflite",
+      "name": "Llama 2 7B Chat (TensorFlow Lite)",
+      "size": "2.1 GB",
+      "download_url": "https://github.com/your-username/llm-models/raw/main/llama-2-7b-chat-tflite/",
+      "format": "tflite",
+      "download_type": "folder",
+      "required_files": [
+        "model.tflite",
+        "config.json",
+        "vocab.txt",
+        "model_info.json"
+      ]
+    },
+    {
+      "id": "phi-2-tflite",
+      "name": "Microsoft Phi-2 (TensorFlow Lite)",
+      "size": "0.8 GB",
+      "download_url": "https://github.com/your-username/llm-models/raw/main/phi-2-tflite/",
+      "format": "tflite",
+      "download_type": "folder",
+      "required_files": [
+        "model.tflite",
+        "config.json",
+        "vocab.txt",
+        "model_info.json"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2024-01-15",
+    "total_models": 4,
+    "download_types": {
+      "single_file": 0,
+      "folder": 4
+    }
+  }
+} 
