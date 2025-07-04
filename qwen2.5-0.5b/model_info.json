@@ -1,0 +1,12 @@
+{
+  "name": "qwen2.5-0.5b",
+  "format": "placeholder",
+  "original_format": "safetensors",
+  "model_size_mb": 942.3235168457031,
+  "note": "TensorFlow not available for this Python version. Use Python 3.11 for full conversion.",
+  "original_file": "import/model.safetensors",
+  "conversion_reason": "tensorflow_unavailable",
+  "requirements": {
+    "note": "Original safetensors file needs manual conversion or llama.cpp integration"
+  }
+}
